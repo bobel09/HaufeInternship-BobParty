@@ -1,0 +1,110 @@
+/* PartyManage.css */
+
+.party-manage-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.party-manage-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.party-item {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.party-item h3 {
+  font-size: 1.5em;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.party-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Requirements styling */
+.requirement-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.requirement-item input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+/* Button styling */
+.party-manage-container button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Specific styling for "Save Changes" and "Edit Party" buttons */
+.party-manage-container button:first-of-type {
+  background-color: #4CAF50;
+}
+
+/* Styling for "Cancel Party" button */
+.party-manage-container .cancel-party-button {
+  background-color: #f44336;
+  margin-top: 10px;
+}
+
+.party-manage-container .cancel-party-button:hover {
+  background-color: #e53935;
+}
+
+/* Friends list styling */
+.party-friends-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.party-friend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.friend-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+/* Styling for "Invite Selected Friends" button */
+.invite-button {
+  background-color: #008CBA;
+  margin-top: 10px;
+}
+
+.invite-button:hover {
+  background-color: #007BB5;
+}

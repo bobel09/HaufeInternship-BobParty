@@ -1,0 +1,118 @@
+/* FriendsPage.css */
+.friends-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.friends-page-section-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.friends-page-error-message {
+    color: #ff4d4f;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.friends-page-success-message {
+    color: #4caf50;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.friends-page-friends-list-section,
+.friends-page-add-friend-section,
+.friends-page-friend-requests-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.friends-page-friends-list,
+.friends-page-requests-list,
+.friends-page-results-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friends-page-friend-item,
+.friends-page-request-item,
+.friends-page-result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 1em;
+}
+
+.friends-page-friend-item:last-child,
+.friends-page-request-item:last-child,
+.friends-page-result-item:last-child {
+    border-bottom: none;
+}
+
+.friends-page-no-friends-text,
+.friends-page-no-requests-text {
+    color: #888;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.friends-page-search-input {
+    padding: 8px;
+    width: calc(100% - 120px);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.friends-page-search-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.friends-page-search-btn:hover {
+    background-color: #0056b3;
+}
+
+.friends-page-send-request-btn,
+.friends-page-accept-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.friends-page-send-request-btn:hover,
+.friends-page-accept-btn:hover {
+    background-color: #218838;
+}
+
+.friends-page-search-results,
+.friends-page-requests-list {
+    margin-top: 10px;
+}
+
+.friends-page-requests-list .friends-page-request-item button {
+    background-color: #4caf50;
+}

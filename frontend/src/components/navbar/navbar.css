@@ -1,0 +1,62 @@
+/* Stilizare pentru navbar */
+.navbar {
+    background-color: black;
+    padding: 20px 40px; /* Mai mult padding pe orizontală pentru simetrie */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px; /* Dimensiunea fontului pentru un titlu mai vizibil */
+    font-weight: bold;
+  }
+  
+  /* Stilizare pentru link-uri */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px; /* Spațiere mai mare între link-uri pentru claritate */
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stilizare pentru butonul de logout */
+  .logout-btn {
+    background-color: #ff5f5f;
+    color: white;
+    border: none;
+    padding: 10px 25px; /* Mai mult padding pentru o vizibilitate mai bună */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ff3f3f;
+  }
+  
+  /* Asigurarea simetriei pentru link-uri și buton */
+  .nav-links, .logout-btn {
+    align-items: center;
+    display: flex;
+  }
+  

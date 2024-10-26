@@ -1,0 +1,85 @@
+/* Page and container styles */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #080808, #0072ff); /* Blue turquoise gradient */
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-container {
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Form elements */
+.signup-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.signup-input-group {
+  margin-bottom: 1rem;
+}
+
+.signup-label {
+  font-size: 0.9rem;
+  color: #fff;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.signup-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button and error message */
+.signup-btn {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #1dd1a1; /* Turquoise color */
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #10ac84;
+}
+
+.signup-error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Log In link */
+.login-link {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,115 @@
+/* General landing page styles */
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #080808, #0072ff); /* Blue turquoise gradient */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Content styling */
+.landing-content {
+  text-align: center;
+  z-index: 2;
+}
+
+/* Title and subtitle */
+.landing-title {
+  font-size: 4rem;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.landing-subtitle {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* Button styles */
+.landing-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.landing-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.landing-login-btn {
+  background-color: #4caf50;
+}
+
+.landing-signup-btn {
+  background-color: #008cba;
+}
+
+.landing-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* Background bubbles */
+.landing-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.landing-chat-bubble {
+  position: absolute;
+  background-color: cyan;
+  border-radius: 50%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+
+/* Fun animated bubbles */
+.landing-chat-bubble1 {
+  width: 100px;
+  height: 100px;
+  top: 20%;
+  left: 10%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.landing-chat-bubble2 {
+  width: 150px;
+  height: 150px;
+  top: 60%;
+  left: 80%;
+  animation: float 8s ease-in-out infinite;
+}
+
+.landing-chat-bubble3 {
+  width: 80px;
+  height: 80px;
+  top: 80%;
+  left: 40%;
+  animation: float 7s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-30px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
